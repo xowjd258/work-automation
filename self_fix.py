@@ -8,7 +8,7 @@ def updateCount():
 
     second_line = code.split('\n')[172]
     second_line_parts = second_line.split(' ')
-    second_line_parts[2] = str(COUNT*2)+';'
+    second_line_parts[3] = str(COUNT*2)+';'
 
     second_line = ' '.join(second_line_parts)
     lines = code.split('\n')
